@@ -1,0 +1,33 @@
+{
+  "name": "vercyra-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express API for Vercyra security assessments and vulnerability tracking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "vercyra",
+    "security",
+    "express",
+    "postgresql"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.17.0",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "pg": "^8.18.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
